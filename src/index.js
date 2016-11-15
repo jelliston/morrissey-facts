@@ -27,19 +27,28 @@ var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-u
  * Array containing space facts.
  */
 var FACTS = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "Morrissey is a cousin of Robbie Keane, the Irish footballer. He has said of Keane, 'To watch him on the pitch – pacing like a lion, as weightless as an astronaut, is pure therapy.'",
+    "Morrissey is a lapsed Catholic.",
+    "A vegetarian since the age of eleven, according to a 2015 interview with Larry King, Morrissey is now a vegan.",
+    "Morrissey is a vocal advocate on animal welfare and animal rights issues.",
+    "After Margaret Thatcher's death in April 2013, Morrissey called her 'a terror without an atom of humanity' and that 'every move she made was charged by negativity'.",
+    "Morrissey is an advocate for animal rights and a supporter of Peeta: the People for the Ethical Treatment of Animals.",
+    "In February 2013, it was reported that the Staples Center had agreed for the first time ever to make every food vendor one-hundred-percent vegetarian for Morrissey's performance on March first; contractually having all McDonald's vendors close down.",
+    "In 2006, Morrissey was voted the second greatest living British icon by BBC’s 'The Culture Show'. He was beaten to the top spot by David Attenborough, but was ahead of Paul McCartney and David Bowie.",
+    "The Smiths released their debut, self-titled album in 1984."
+    "'Meat Is Murder’, The Smiths’ second album, was released in February 1985.",
+    "After Eric Cantona famously kung-fu kicked an abusive football fan in 1995, Morrissey became enchanted by the Manchester United forward. He told one interviewer, 'I find him very exciting.'",
+    "As a boy, Morrissey represented his school in both the one-hundred and four-hundred metres athletic events.",
+    "Morrissey's full name is Stephen Patrick Morrissey.",
+    "Morrissey was born in Davyhulme, Lancashire in the northwest of England.",
+    "Morrissey was born on May 22, 1959.",
+    "Morrissey's first job was as a filing clerk at the Inland Revenue. Of the job, he said, 'I would actually prefer prostitution.'",
+    "Morrissey’s parents were both Irish Catholic immigrants who moved to Manchester the year before he was born.",
+    "Morrissey’s father, Peter, worked as a hospital porter while his mother Elizabeth was an assistant librarian.",
+    "The first gig Morrissey went to was T-Rex at the Belle Vue in 1972.",
+    "Growing up, Morrissey’s favourite musicians included T-Rex, David Bowie, Patti Smith and the New York Dolls.",
+    "Morrissey's literary heroes include Oscar Wilde, W.H. Auden, Robert Herrick and A.E. Houseman.",
+    
 ];
 
 /**
