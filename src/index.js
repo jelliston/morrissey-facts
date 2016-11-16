@@ -35,7 +35,7 @@ var FACTS = [
     "Morrissey is an advocate for animal rights and a supporter of Peeta: the People for the Ethical Treatment of Animals.",
     "In February 2013, it was reported that the Staples Center had agreed for the first time ever to make every food vendor one-hundred-percent vegetarian for Morrissey's performance on March first; contractually having all McDonald's vendors close down.",
     "In 2006, Morrissey was voted the second greatest living British icon by BBC’s 'The Culture Show'. He was beaten to the top spot by David Attenborough, but was ahead of Paul McCartney and David Bowie.",
-    "The Smiths released their debut, self-titled album in 1984."
+    "The Smiths released their debut, self-titled album in 1984.",
     "'Meat Is Murder’, The Smiths’ second album, was released in February 1985.",
     "After Eric Cantona famously kung-fu kicked an abusive football fan in 1995, Morrissey became enchanted by the Manchester United forward. He told one interviewer, 'I find him very exciting.'",
     "As a boy, Morrissey represented his school in both the one-hundred and four-hundred metres athletic events.",
@@ -47,7 +47,7 @@ var FACTS = [
     "Morrissey’s father, Peter, worked as a hospital porter while his mother Elizabeth was an assistant librarian.",
     "The first gig Morrissey went to was T-Rex at the Belle Vue in 1972.",
     "Growing up, Morrissey’s favourite musicians included T-Rex, David Bowie, Patti Smith and the New York Dolls.",
-    "Morrissey's literary heroes include Oscar Wilde, W.H. Auden, Robert Herrick and A.E. Houseman.",
+    "Morrissey's literary heroes include Oscar Wilde, W.H. Auden, Robert Herrick and A.E. Houseman."
     
 ];
 
