@@ -9,22 +9,12 @@
 */
 
 /**
- * This simple sample has no external dependencies or session management, and shows the most basic
- * example of how to create a Lambda function for handling Alexa Skill requests.
- *
- * Examples:
- * One-shot model:
- *  User: "Alexa, ask Space Geek for a space fact"
- *  Alexa: "Here's your space fact: ..."
- */
-
-/**
  * App ID for the skill
  */
-var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
+var APP_ID = amzn1.ask.skill.5b5e61cf-19bd-46c0-9243-6eee1888ad5c; 
 
 /**
- * Array containing space facts.
+ * Array containing Morrissey facts.
  */
 var FACTS = [
     "Morrissey is a cousin of Robbie Keane, the Irish footballer. He has said of Keane, 'To watch him on the pitch – pacing like a lion, as weightless as an astronaut, is pure therapy.'",
@@ -57,11 +47,9 @@ var FACTS = [
 var AlexaSkill = require('./AlexaSkill');
 
 /**
- * SpaceGeek is a child of AlexaSkill.
- * To read more about inheritance in JavaScript, see the link below.
- *
- * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript#Inheritance
+ * Morrissey Facts is a child of AlexaSkill.
  */
+
 var Fact = function () {
     AlexaSkill.call(this, APP_ID);
 };
@@ -94,7 +82,7 @@ Fact.prototype.intentHandlers = {
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        response.ask("You can say tell me a space fact, or, you can say exit... What can I help you with?", "What can I help you with?");
+        response.ask("You can say tell me a Morrissey fact, or, you can say exit... What can I help you with?", "What can I help you with?");
     },
 
     "AMAZON.StopIntent": function (intent, session, response) {
@@ -112,7 +100,7 @@ Fact.prototype.intentHandlers = {
  * Gets a random new fact from the list and returns to the user.
  */
 function handleNewFactRequest(response) {
-    // Get a random space fact from the space facts list
+    // Get a random Morrissey fact from the Morrissey facts list
     var factIndex = Math.floor(Math.random() * FACTS.length);
     var randomFact = FACTS[factIndex];
 
@@ -124,7 +112,7 @@ function handleNewFactRequest(response) {
 
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
-    // Create an instance of the SpaceGeek skill.
+    // Create an instance of the Morrisey Fact skill.
     var fact = new Fact();
     fact.execute(event, context);
 };
