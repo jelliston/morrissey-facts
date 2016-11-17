@@ -11,7 +11,7 @@
 /**
  * App ID for the skill
  */
-var APP_ID = amzn1.ask.skill.5b5e61cf-19bd-46c0-9243-6eee1888ad5c; 
+var APP_ID = 'amzn1.ask.skill.5b5e61cf-19bd-46c0-9243-6eee1888ad5c'; 
 
 /**
  * Array containing Morrissey facts.
