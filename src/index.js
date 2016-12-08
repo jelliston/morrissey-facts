@@ -14,7 +14,7 @@
 var APP_ID = 'amzn1.ask.skill.5b5e61cf-19bd-46c0-9243-6eee1888ad5c'; 
 
 /**
- * Array containing Morrissey facts.
+ * Array containing MozFacts.
  */
 var FACTS = [
     "Morrissey is a cousin of Robbie Keane, the Irish footballer. Speaking of Keane he said: 'To watch him on the pitch – pacing like a lion, as weightless as an astronaut, is pure therapy.'",
@@ -53,7 +53,7 @@ var FACTS = [
 var AlexaSkill = require('./AlexaSkill');
 
 /**
- * Morrissey Facts is a child of AlexaSkill.
+ * MozFacts is a child of AlexaSkill.
  */
 
 var Fact = function () {
@@ -88,7 +88,7 @@ Fact.prototype.intentHandlers = {
     },
 
     "AMAZON.HelpIntent": function (intent, session, response) {
-        response.ask("You can say tell me a Morrissey fact, or, you can say exit... What can I help you with?", "What can I help you with?");
+        response.ask("You can say tell me a Moz-Fact, or, you can say exit... What can I help you with?", "What can I help you with?");
     },
 
     "AMAZON.StopIntent": function (intent, session, response) {
@@ -106,7 +106,7 @@ Fact.prototype.intentHandlers = {
  * Gets a random new fact from the list and returns to the user.
  */
 function handleNewFactRequest(response) {
-    // Get a random Morrissey fact from the Morrissey facts list
+    // Get a random Morrissey fact from the MozFacts list
     var factIndex = Math.floor(Math.random() * FACTS.length);
     var randomFact = FACTS[factIndex];
 
@@ -118,7 +118,7 @@ function handleNewFactRequest(response) {
 
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {
-    // Create an instance of the Morrisey Fact skill.
+    // Create an instance of the MozFact skill.
     var fact = new Fact();
     fact.execute(event, context);
 };
