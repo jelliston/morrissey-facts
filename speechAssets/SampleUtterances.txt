@@ -15,3 +15,4 @@ GetNewFactIntent give me some information
 GetNewFactIntent give me some Morrissey information
 GetNewFactIntent tell me something
 GetNewFactIntent give me something
+GetNewFactIntent some Morrissey trivia
